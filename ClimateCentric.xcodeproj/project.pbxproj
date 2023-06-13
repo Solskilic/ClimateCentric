@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76BF15992A38FDAD00CD151B /* Carbon Footprint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BF15982A38FDAD00CD151B /* Carbon Footprint.swift */; };
+		76BF159B2A38FDEF00CD151B /* Carbon Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BF159A2A38FDEF00CD151B /* Carbon Quiz.swift */; };
 		F61B0C8F2A37A33D000587CC /* ClimateCentricApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61B0C8E2A37A33D000587CC /* ClimateCentricApp.swift */; };
 		F61B0C912A37A33D000587CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61B0C902A37A33D000587CC /* ContentView.swift */; };
 		F61B0C932A37A33E000587CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F61B0C922A37A33E000587CC /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		76BF15982A38FDAD00CD151B /* Carbon Footprint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Carbon Footprint.swift"; sourceTree = "<group>"; };
+		76BF159A2A38FDEF00CD151B /* Carbon Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Carbon Quiz.swift"; sourceTree = "<group>"; };
 		F61B0C8B2A37A33D000587CC /* ClimateCentric.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClimateCentric.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F61B0C8E2A37A33D000587CC /* ClimateCentricApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateCentricApp.swift; sourceTree = "<group>"; };
 		F61B0C902A37A33D000587CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 			children = (
 				F61B0C8E2A37A33D000587CC /* ClimateCentricApp.swift */,
 				F61B0C902A37A33D000587CC /* ContentView.swift */,
+				76BF15982A38FDAD00CD151B /* Carbon Footprint.swift */,
+				76BF159A2A38FDEF00CD151B /* Carbon Quiz.swift */,
 				F61B0C922A37A33E000587CC /* Assets.xcassets */,
 				F61B0C942A37A33E000587CC /* ClimateCentric.entitlements */,
 				F61B0C952A37A33E000587CC /* Preview Content */,
@@ -139,7 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76BF15992A38FDAD00CD151B /* Carbon Footprint.swift in Sources */,
 				F61B0C912A37A33D000587CC /* ContentView.swift in Sources */,
+				76BF159B2A38FDEF00CD151B /* Carbon Quiz.swift in Sources */,
 				F61B0C8F2A37A33D000587CC /* ClimateCentricApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
