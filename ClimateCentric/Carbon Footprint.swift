@@ -18,6 +18,12 @@ struct Carbon_Footprint: View {
             Image("footprint")
                 .resizable(resizingMode: .stretch)
                 .aspectRatio(contentMode: .fit)
+            Text("Carbon Footprint")
+                .font(.title2)
+                .fontDesign(.rounded)
+                .fontWeight(.bold)
+                .foregroundColor(Color(red: 0.8901960784313725, green: 1.0, blue: 0.0))
+                .offset(x:0, y: -310)
             
             VStack {
                 
@@ -30,7 +36,7 @@ struct Carbon_Footprint: View {
                 .font(.title3)
                 .fontDesign(.rounded)
                 .foregroundColor(Color(red: 0.0, green: 0.44313725490196076, blue: 0.3254901960784314))
-                .offset(x:53, y:115)
+                .offset(x:53, y:145)
             }
             .padding()
             
@@ -54,7 +60,7 @@ struct Carbon_Footprint: View {
                     
                 }
                 .position(x:340,y:-344)
-                .foregroundColor(Color(red: 0.8901960784313725, green: 1.0, blue: 0.0))
+               .foregroundColor(Color(red: 0.8901960784313725, green: 1.0, blue: 0.0))
             }
         }
         }
