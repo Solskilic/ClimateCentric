@@ -9,6 +9,7 @@ import SwiftUI
 
 struct Carbon_Footprint: View {
     var body: some View {
+        NavigationStack{
         ZStack {
             Color(red: 0.0, green: 0.44313725490196076, blue: 0.3254901960784314)
                 .ignoresSafeArea()
@@ -32,6 +33,30 @@ struct Carbon_Footprint: View {
                 .offset(x:53, y:115)
             }
             .padding()
+            
+            VStack{
+                Text("ClimateCentric")
+                    .font(.custom("DIN Condensed", size: 19))
+                    .foregroundColor(Color(red: 0.8901960784313725, green: 1.0, blue: 0.0))
+                // .font(.custom("Gill Sans", size: 19))
+                    .position(x:60,y:20)
+                
+                
+                
+                Menu("Menu") {
+                    
+                    NavigationLink("Motivation Corner", destination: MotivationCorner())
+                    // {}
+                    
+                    NavigationLink("Involvement Links", destination: InvolvementCenter())
+                    NavigationLink("Interaction Center", destination: TalkingCC())
+                    NavigationLink("Carbon Footprint", destination: Carbon_Footprint())
+                    
+                }
+                .position(x:340,y:-344)
+                .foregroundColor(Color(red: 0.8901960784313725, green: 1.0, blue: 0.0))
+            }
+        }
         }
     }
     
