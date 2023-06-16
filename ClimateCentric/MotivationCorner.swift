@@ -91,7 +91,7 @@ struct MotivationCorner: View {
                     NavigationLink("Carbon Footprint", destination: Carbon_Footprint())
                     
                 }
-                .position(x:330,y:-705)
+                .position(x:330,y:-670)
                 .foregroundColor(Color(red: 0.8901960784313725, green: 1.0, blue: 0.0))
                 
                

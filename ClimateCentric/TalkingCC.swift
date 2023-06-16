@@ -17,10 +17,10 @@ struct TalkingCC: View {
     
     @State private var contextA = "Alarmed people are those who are aware of the impact of climate change, worried about our future, and want to take climate action.\n\tThey make up 26% of the U.S. population.\n\tWhen talking to an Alarmed person, share ways of taking climate action and instill hope within each other to keep fighting for a cleaner future."
     @State private var contextCo = "Concerned share similar views with the Alarmed profile, but Concerned believe climate change is a distant phenomenon, so they lack the urgency to act on it. When talking to a Concerned person, encourage them to take action in their daily lives and immediate environments. Inform them of the many opportunities to get involved in order to protect our planet."
-    @State private var contextCa = "Cautious people make up 17% of the U.S. population, and more Cautious people are becoming Concerned or Alarmed each day. When it comes to Cautious people, it is a good practice to lead them "
-    @State private var contextEn = "fsdfsdgsf"
-    @State private var contextDo = "fsdfsdgsf"
-    @State private var contextDi = "fsdfsdgsf"
+    @State private var contextCa = "Cautious people make up 17% of the U.S. population, and more Cautious people are becoming Concerned or Alarmed each day. When it comes to Cautious people, it is a good practice to guide them to start taking climate action and keeping up with climate news."
+    @State private var contextEn = "Disengaged people are those that either do not care about Climate Change or those that are not aware of this global issue, such as young children. It's important to not overwhelm Disengaged people with Climate Change facts in order to instill urgency in them. Rather, try a more relatable approach that lets them understand the immediate impacts of Climate Change."
+    @State private var contextDo = "Making up 11% of the population, Doubtful people think global warming is a natural cycle, or the urgency that some have for global warming is unnecessarry. The best approach for Doubtful people is to have one-on-one conversations in which you can point out the impact of global warming on the Doubtful person's daily life. Make it relatable."
+    @State private var contextDi = "Finally, Dismissives. If you have encountered a Dismissive and think it is impossible to convince them, don't worry, they only make up 11% of the population. However, if you'd like to attempt to convince them that Climate Change is happening, try the tips given for Doubtful people on Dismissive people. One-on-one conversations matter, we can only care about something if we can relate to it."
     var body: some View {
         
         NavigationStack{
