@@ -16,8 +16,8 @@ struct TalkingCC: View {
     @State var expandedDi = false
     
     @State private var contextA = "Alarmed people are those who are aware of the impact of climate change, worried about our future, and want to take climate action.\n\tThey make up 26% of the U.S. population.\n\tWhen talking to an Alarmed person, share ways of taking climate action and instill hope within each other to keep fighting for a cleaner future."
-    @State private var contextCo = "Concerned share similar views with the Alarmed profile, but Concerned believe climate change is a distant phenomenon, so they lack the urgency to act on it."
-    @State private var contextCa = "fsdfsdgsf"
+    @State private var contextCo = "Concerned share similar views with the Alarmed profile, but Concerned believe climate change is a distant phenomenon, so they lack the urgency to act on it. When talking to a Concerned person, encourage them to take action in their daily lives and immediate environments. Inform them of the many opportunities to get involved in order to protect our planet."
+    @State private var contextCa = "Cautious people make up 17% of the U.S. population, and more Cautious people are becoming Concerned or Alarmed each day. When it comes to Cautious people, it is a good practice to lead them "
     @State private var contextEn = "fsdfsdgsf"
     @State private var contextDo = "fsdfsdgsf"
     @State private var contextDi = "fsdfsdgsf"
@@ -177,7 +177,7 @@ struct TalkingCC: View {
                     NavigationLink("Carbon Footprint", destination: Carbon_Footprint())
                     
                 }
-                .position(x:340,y:-347)
+                .position(x:340,y:-344)
                 .foregroundColor(Color(red: 0.8901960784313725, green: 1.0, blue: 0.0))
             }
         }

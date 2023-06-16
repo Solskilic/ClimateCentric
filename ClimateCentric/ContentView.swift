@@ -70,8 +70,20 @@ struct ContentView: View {
                          .font(.system(size:30))
                          .position(x: 30, y:202)
                          })
-                         
+                        
+                       
+                        
                     }
+                    Image("CClogo")
+                                  .resizable()
+                                  .aspectRatio(contentMode: .fit)
+                                  .frame(width:270)
+                                  .position(x:200, y:100)
+                    
+                    Text("Make the change you want to see.")
+                        .position(x:200,y:270)
+                        .foregroundColor(.white)
+                        .font(.custom("Gill Sans", size: 22))
                 }
             }
         }
